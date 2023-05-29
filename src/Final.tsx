@@ -4,14 +4,11 @@ import Styles from './Styles'
 import { Form, Field } from "react-final-form";
 import {useState} from "react";
 
-const Final = () => {
-
-
-
-    // const sleep = ms => new Promise(resolve => setTimeout(resolve, ms))
-    const onSubmit = () => {
-        // await sleep(300)
-        // window.alert(JSON.stringify(values, null, 2))
+const FinalForm = () => {
+    const sleep = (ms: number | undefined) => new Promise(resolve => setTimeout(resolve, ms))
+    const onSubmit = async (values: any) => {
+        await sleep(300)
+        window.alert(JSON.stringify(values, null, 2))
     }
 
     return (
@@ -143,7 +140,11 @@ const Final = () => {
                             <Field name="notes" component="textarea" placeholder="Notes" />
                         </div>
                         <div className="buttons">
-                            <button type="submit" disabled={submitting || pristine}>
+                            <button
+                                type="submit"
+                                // disabled={submitting || pristine}
+                                disabled={false}
+                            >
                                 Submit
                             </button>
                             <button
@@ -163,4 +164,4 @@ const Final = () => {
     )
 }
 
-export default Final
+export default FinalForm
