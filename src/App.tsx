@@ -1,4 +1,5 @@
 import React from 'react';
+import './App.css';
 import Final from './Components/Final';
 import Fun from './Components/Fun';
 import GuageChart from "./Components/GuageChart";
