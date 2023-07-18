@@ -1,7 +1,9 @@
 import React from 'react';
-import Final from './Final';
-import Fun from './Fun';
-import GuageChart from "./GuageChart";
+import Final from './Components/Final';
+import Fun from './Components/Fun';
+import GuageChart from "./Components/GuageChart";
+import MySortableTree from "./Components/SortableTree";
+import LearnCSS from "./Components/LearnCSS";
 
 function App() {
   return (
@@ -9,7 +11,8 @@ function App() {
       <header className="App-header">
         {/*<Final/>*/}
         {/*  <Fun/>*/}
-          <GuageChart/>
+        {/*  <MySortableTree/>*/}
+          <LearnCSS/>
       </header>
     </div>
   );

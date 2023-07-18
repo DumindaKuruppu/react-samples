@@ -1,6 +1,6 @@
 import React from "react";
 import {render} from "@testing-library/react";
-import Styles from './Styles'
+import Styles from '../Styles'
 import { Form, Field } from "react-final-form";
 import {useState} from "react";
 
