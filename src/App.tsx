@@ -11,9 +11,9 @@ function App() {
     <div className="App">
       <header className="App-header">
         {/*<Final/>*/}
-        {/*  <Fun/>*/}
+          <Fun/>
         {/*  <MySortableTree/>*/}
-          <LearnCSS/>
+        {/*  <LearnCSS/>*/}
       </header>
     </div>
   );
