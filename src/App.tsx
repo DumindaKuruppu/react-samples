@@ -5,15 +5,17 @@ import Fun from './Components/Fun';
 import GuageChart from "./Components/GuageChart";
 import MySortableTree from "./Components/SortableTree";
 import LearnCSS from "./Components/LearnCSS";
+import TicTacToe from "./Components/TicTacToe";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         {/*<Final/>*/}
-          <Fun/>
+        {/*  <Fun/>*/}
         {/*  <MySortableTree/>*/}
         {/*  <LearnCSS/>*/}
+          <TicTacToe/>
       </header>
     </div>
   );
